@@ -1,0 +1,30 @@
+{
+    "compilerOptions": {
+        //输出目录为build
+        "outDir": "./built",
+        //接受js作为输入
+        "allowJs": true,
+        //转换为es5
+        "target": "ES2015",                         
+        "module": "esnext",
+        //用mode进行模块解析
+        "moduleResolution": "node",
+        //使用sourceMap
+        "sourceMap": true,
+        //启用实验性的metadata API
+        "emitDecoratorMetadata": true,
+        //启用实验性的装饰器
+        "experimentalDecorators": true,
+        //不删去注释
+        "removeComments": false,
+        //
+        // "noUnusedLocals": true,
+        "esModuleInterop": true, // important!
+        "strict": true,
+        "declaration":false
+    },
+    // "include": [
+    //     //读取src目录下的所有文件
+    //     "./src/**/*"
+    // ]
+}
