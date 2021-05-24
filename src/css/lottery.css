@@ -1,0 +1,245 @@
+header .page-header-fixed {
+    position: fixed;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 0.88rem;
+    z-index: 10;
+    background-color: #fff;
+    line-height: 0.88rem;
+}
+
+i::before {
+    content: '';
+    position: absolute;
+    top: 0.3rem;
+    left: 0.4rem;
+    width: 9px;
+    height: 9px;
+    border-top: 2px solid #333333;
+    border-right: 2px solid #333333;
+    transform: rotate(-135deg);
+}
+
+.content {
+    padding-top: 0.88rem;
+    width: 100%;
+    /* min-height: 6rem; */
+    height: 100%;
+    background: url('../assets/icon_lottery_bg.jpg') center center no-repeat;
+    background-size: 100% 100%;
+}
+
+.text-img {
+    width: 100%;
+    display: block;
+    margin: 0 auto;
+    padding-top: 0.23rem;
+}
+
+.canvas-contain {
+    position: absolute;
+    top: 3.8rem;
+    width: 6.56rem;
+    height: 6.5rem;
+    background: url('../assets/icon_lottery_contain.png') center center no-repeat;
+    background-size: 100% 100%;
+    margin: 0 auto;
+    left: 50%;
+    margin-left: -3.28rem;
+}
+
+.remain {
+    width: 100%;
+    font-size: 0.28rem;
+    color: #ffffff;
+    position: absolute;
+    bottom: 0.4rem;
+    z-index: 1;
+    text-align: center;
+}
+
+#canvas {
+    position: absolute;
+    width: 5.63rem;
+    height: 3.9rem;
+    margin: 0 auto;
+    display: block;
+    top: 5.15rem;
+    left: 50%;
+    margin-left: -2.82rem;
+    border-radius: 5%;
+    z-index: 11;
+}
+
+.canvas-show {
+    position: absolute;
+    width: 5.63rem;
+    height: 3.9rem;
+    margin: 0 auto;
+    display: block;
+    top: 5.15rem;
+    left: 50%;
+    margin-left: -2.82rem;
+    border-radius: 5%;
+    text-align: center;
+}
+
+.canvas-show span {
+    font-size: 0.35rem;
+    color: #2a3444;
+    display: block;
+    font-weight: bold;
+}
+
+.canvas-show span:first-of-type {
+    margin-top: 0.56rem;
+}
+
+.ward-find {
+    font-size: 0.28rem;
+    color: #f1ac51;
+    margin-top: 0.2rem;
+}
+
+.again-more {
+    display: inline-block;
+    background-image: linear-gradient(0deg,
+            #f13b44 0%,
+            #f34a52 42%,
+            #f4585f 100%),
+        linear-gradient(#f4585f, #f4585f);
+    background-blend-mode: normal, normal;
+    box-shadow: 0px 0.02rem 0.08rem 0px rgba(244, 88, 95, 0.23);
+    border-radius: 44px;
+    font-size: 0.32rem;
+    color: #ffffff;
+    padding: 0.29rem 1.15rem;
+    margin-top: 0.1rem;
+}
+
+.start-show {
+    position: absolute;
+    width: 5.63rem;
+    height: 3.9rem;
+    margin: 0 auto;
+    display: block;
+    top: 5.15rem;
+    left: 50%;
+    margin-left: -2.82rem;
+    border-radius: 5%;
+    text-align: center;
+    z-index: 20;
+}
+
+.start-show span:first-of-type {
+    display: block;
+    font-size: 0.44rem;
+    color: #ffffff;
+    margin-top: 0.5rem;
+    padding: 0 0.1rem;
+}
+
+.start-show span:nth-child(2) {
+    display: block;
+    font-size: 0.28rem;
+    color: #ffffff;
+    margin: 0.19rem 0;
+}
+
+.start-show span:last-of-type {
+    display: inline-block;
+    font-size: 0.32rem;
+    color: #ffffff;
+    background-color: #f4585f;
+    box-shadow: 0px 0.02rem 0.08rem 0px rgba(244, 88, 95, 0.23);
+    border-radius: 0.6rem;
+    padding: 0.3rem 0.63rem;
+    margin-top: 0.2rem;
+}
+
+.bottom-icon {
+    width: 100%;
+    font-size: 0.28rem;
+    color: #83530c;
+    text-align: center;
+    position: absolute;
+    bottom: 0.3rem;
+}
+
+.bottom-icon img {
+    width: 0.8rem;
+    height: 0.53rem;
+    margin-top: 0.21rem;
+}
+
+.rule-mask {
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background: rgba(0, 0, 0, 0.5);
+    z-index: 30;
+}
+
+.rule-title {
+    width: 100%;
+    font-size: 0.3rem;
+    color: #2a3444;
+    text-align: center;
+}
+
+.rule-all {
+    font-size: 0.28rem;
+    color: #2a3444;
+    line-height: 0.4rem;
+}
+
+.close-con img {
+    width: 0.24rem;
+    height: 0.24rem;
+    margin: 0 auto;
+    display: block;
+    margin-top: 0.16rem;
+}
+
+.close-con {
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 0.7rem;
+    height: 0.6rem;
+    background-color: #eaedf0;
+    border-radius: 0px 0.26rem 0px 0.56rem;
+}
+
+.rule-con {
+    width: 5.2rem;
+    background-color: #ffffff;
+    border-radius: 0.26rem;
+    padding: 0.85rem 0.48rem;
+    margin: 0 auto;
+    margin-top: 2.5rem;
+    position: relative;
+}
+
+.load-icon {
+    position: fixed;
+    z-index: 100;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.4);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+}
+
+.load-icon img {
+    width: 50px;
+    height: 50px;
+}

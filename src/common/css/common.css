@@ -1,0 +1,96 @@
+#page {
+   position: relative;
+}
+#page header {
+   height: .88rem;
+}
+#page header .page-header-fixed {
+    position: fixed;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: .88rem;
+    z-index: 10;
+    /* box-shadow: 0 0 0.1rem 0 rgba(0,0,0,.1); */
+    background-color: #fff;
+}
+i{
+    width: 100%;
+    height: 100%;
+    line-height: 20px;
+    display: inline-block;
+    position: relative;
+}
+i::before {
+    content: '';
+    position: absolute;
+    top: .3rem;
+    left: .4rem;
+    width: 9px;
+    height: 9px;
+    border-top: 2px solid #333333;
+    border-right: 2px solid #333333;
+    transform: rotate(-135deg); 
+}
+/* #page .page-article {
+    height: 500px;
+    margin-top: .35rem;
+} */
+#page .page-article .section-head {
+    padding: .24rem .5rem 0;
+}
+#page .page-article .section-head .head-title .title{
+    font-weight: bold;
+    line-height: 1;
+    font-size: .48rem;
+    color: #333;
+}
+#page .page-article .section-content {
+  padding: 0.67rem 0.3rem 0;
+  line-height: 20px;
+}
+#page .page-article .section-content .top-content .indro {
+    font-size: .32rem;
+    font-weight: bold;
+    line-height: .42rem;
+    letter-spacing: 0px;
+    color: #2a3444;
+    margin-bottom: .33rem;
+}
+#page .page-article .section-content .top-content .preface {
+    font-size: .28rem;
+    letter-spacing: 0px;
+    color: #333;
+    margin-bottom: .5rem;
+}
+#page .page-article .section-content .top-content .mconcat {
+    font-size: 0.34rem;
+    color: #26c49f;
+    margin-top: .23rem;
+}
+#page .page-article .section-content .middle-content {
+    padding: 0 0.3rem .6rem;
+    line-height: 20px;
+}
+#page .page-article .section-content .middle-content .content-item{
+    padding-top: .3rem;
+}
+#page .page-article .section-content .middle-content .content-item .content-title{
+    font-size: .32rem;
+    font-weight: bold;
+    font-stretch: normal;
+    letter-spacing: 0px;
+    color: #333333;
+    margin-bottom: .3rem;
+}
+#page .page-article .section-content .middle-content .content-item .details{
+    font-size: .28rem;
+    font-weight: normal;
+    font-stretch: normal;
+    letter-spacing: 0px;
+    color: #333333;
+    margin-bottom: .25rem;
+}
+#page .page-article .section-content .middle-content .content-item .details .calssify {
+    display: inherit;
+}
